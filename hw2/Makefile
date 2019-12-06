@@ -1,5 +1,5 @@
 obj-m += solution.o
-obj-m += checker.o
+#obj-m += checker.o
 
 KERNEL_VERSION :=$(shell uname -r)
 export KDIR =/lib/modules/$(KERNEL_VERSION)/build
